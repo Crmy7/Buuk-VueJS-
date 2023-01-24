@@ -1,0 +1,30 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+}
+.purple {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  border-radius: 0px 0px 150px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.liInfo {
+  cursor: default;
+  transition: all 0.5s ease-in-out;
+}
+.liInfo:hover {
+  cursor: default;
+  transform: scale(1.075);
+}
+.liInfo:hover span {
+  color: #D48AE6;
+  background: linear-gradient(72.83deg, white 0%, white 100%);
+  box-shadow: #D48AE6 0px 0px 15px;
+}

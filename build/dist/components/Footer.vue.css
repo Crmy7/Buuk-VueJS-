@@ -1,0 +1,35 @@
+footer {
+  width: 100%;
+  height: 118px;
+  background: #FAFAFA;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+}
+footer a {
+  font-family: "Sora" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12.5px !important;
+  line-height: 25px !important;
+  color: #000000 !important;
+}
+footer .phone {
+  font-weight: 500 !important;
+}
+.leftFooter {
+  width: 45% !important;
+}
+.leftFooter a {
+  font-family: "Sora" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  line-height: 75px !important;
+  background: linear-gradient(89.6deg, #D99CF0 -2.19%, #927BF9 102.14%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  cursor: pointer;
+}

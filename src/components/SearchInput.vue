@@ -1,0 +1,46 @@
+<template>
+    <input class="search" type="text" placeholder="Rechercher un artiste">
+</template>
+
+<script lang="ts">
+export default {
+  name: 'SearchInput',
+}
+</script>
+
+<style lang="scss">
+
+.search{
+line-height: 1.5;
+border: none;
+background: #FFFFFF;
+background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
+background-repeat: no-repeat;
+background-position-x: 20px;
+background-position-y: center;
+background-size: 20px 20px;
+box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 20px;
+border-radius: 20px;
+width: 250px;
+height: 50px;
+padding: .5em 1em .5em 2.5em;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+color: #1D1C24;
+margin-right: 17.5px;
+transition: all .3s ease-in-out;
+} 
+
+.search::placeholder{
+    color: #1D1C24;
+    opacity: 0.7;
+}
+
+.search:focus {
+  outline: none;
+  box-shadow: #D48AE6 0px 0px 20px;
+}
+</style>

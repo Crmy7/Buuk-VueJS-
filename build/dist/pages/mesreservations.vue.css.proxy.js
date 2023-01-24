@@ -1,0 +1,10 @@
+// [snowpack] add styles to the page (skip if no document exists)
+if (typeof document !== 'undefined') {
+  const code = ".home {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  background-color: white !important;\n}\n.purple {\n  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);\n  border-radius: 0px 0px 0px 150px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.bande {\n  background: #F3EEFF;\n  border-radius: 50px 50px 0px 0px;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  align-content: center;\n  text-align: center;\n}\n.bande .h4 {\n  font-size: 40px;\n  background: linear-gradient(89.6deg, #D99CF0 -2.19%, #927BF9 102.14%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  font-weight: 900;\n  line-height: normal !important;\n}\n.bandeaupres {\n  width: 80%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  align-content: center;\n  flex-direction: column;\n}\n.bandeaupres .reserv {\n  display: flex;\n  align-items: center;\n  align-content: center;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 5px;\n  border-radius: 20px;\n}\n.bandeaupres .reserv h4 {\n  padding-left: 20px;\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 500;\n  font-size: 25px;\n  line-height: 50px;\n  width: 100%;\n  color: #000000;\n}\n.bandeaupres .reserv h4 span {\n  font-weight: 800;\n}\n.bandeaupres .reserv button {\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 800;\n  font-size: 15px;\n  line-height: 38px;\n  text-align: center;\n  background-color: red;\n  color: #FFFFFF;\n  border: 0;\n  border-radius: 20px;\n  padding: 0px 20px;\n  margin-right: 20px;\n}";
+
+  const styleEl = document.createElement("style");
+  const codeEl = document.createTextNode(code);
+  styleEl.type = 'text/css';
+  styleEl.appendChild(codeEl);
+  document.head.appendChild(styleEl);
+}

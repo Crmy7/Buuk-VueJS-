@@ -1,0 +1,96 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white !important;
+}
+.purple {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  border-radius: 0px 0px 0px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.form input {
+  width: 40%;
+  margin: 10px;
+  border-radius: 20px;
+  border: 0;
+  background: #F4F4F4;
+  padding: 5px 20px;
+  height: 50px;
+}
+.form input::placeholder {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: normal;
+  color: #BBBAC1;
+}
+.form textarea {
+  width: 85%;
+  height: 150px !important;
+  margin: 10px;
+  border-radius: 20px;
+  border: 0;
+  background: #F4F4F4;
+  padding: 20px 20px !important;
+  height: 50px;
+}
+.form textarea::placeholder {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: normal;
+  color: #BBBAC1;
+}
+h3 {
+  width: 60%;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+input.button {
+  width: 150px !important;
+  padding: 10px 30px 10px 30px !important;
+  border: 0px !important;
+  color: white !important;
+  transition: all 0.3s ease-in-out !important;
+  background: linear-gradient(72.83deg, #D48AE6 0%, #9A82FC 100%) !important;
+  border-radius: 14px !important;
+  font-family: "Sora" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  line-height: 32px !important;
+  text-transform: uppercase !important;
+  color: #FFFFFF !important;
+}
+input.button:hover {
+  transform: scale(1.05) !important;
+  color: #D48AE6 !important;
+  background: linear-gradient(72.83deg, white 0%, white 100%) !important;
+  cursor: pointer !important;
+  box-shadow: #D48AE6 0px 0px 15px !important;
+}
+.send {
+  width: 90%;
+  display: flex;
+  justify-content: right;
+}

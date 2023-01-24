@@ -1,0 +1,100 @@
+.coucou {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+}
+.purple {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  border-radius: 0px 0px 150px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+}
+.blocArtist {
+  width: 100% !important;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 0px 0px 30px 30px;
+  background-image: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  position: relative;
+}
+.blocArtist .right {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+.blocArtist .right button {
+  margin: 0;
+}
+.blocArtist h3 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 25px;
+}
+.blocArtist h2 {
+  color: white !important;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.singlePlace {
+  background: linear-gradient(89.6deg, #D99CF0 -2.19%, #927BF9 102.14%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-align: center !important;
+  font-family: "Sora" !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 30px !important;
+  line-height: 63px !important;
+  font-weight: 900 !important;
+  position: absolute !important;
+  top: 20px;
+  right: 20px;
+}
+.infoArtist {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+}

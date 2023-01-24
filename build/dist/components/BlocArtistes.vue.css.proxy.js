@@ -1,0 +1,10 @@
+// [snowpack] add styles to the page (skip if no document exists)
+if (typeof document !== 'undefined') {
+  const code = ".Artistes {\n  width: 82.75%;\n  display: flex;\n  justify-content: center;\n  border-radius: 0px 0px 150px 150px;\n}\n.Artistes li {\n  list-style: none;\n  width: 20%;\n  border-radius: 30px 30px 0px 0px;\n  height: 75px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 500;\n  text-transform: uppercase;\n}\nli:hover {\n  cursor: pointer;\n  color: #D99CF0;\n}\nli.active {\n  background: linear-gradient(75.5deg, #DA8BE3 0%, #9681FD 95.43%);\n}\nli.active {\n  color: white;\n}\n.imageArtist {\n  width: 80%;\n  height: 500px;\n  display: flex;\n  align-items: flex-start;\n  margin-bottom: 40px;\n  color: white;\n  flex-direction: column;\n  justify-content: flex-end;\n  padding: 20px;\n  border-radius: 0px 0px 30px 30px;\n  background-image: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);\n  position: relative;\n}\n.imageArtist .button {\n  position: absolute;\n  right: 20px;\n  bottom: 30px !important;\n  padding: 0;\n}\n.imageArtist button {\n  margin: 0;\n}\n.imageArtist h3 {\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 250;\n  font-size: 25px;\n  text-transform: uppercase;\n}\n.imageArtist h2 {\n  color: white !important;\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 800;\n  font-size: 40px;\n  text-transform: uppercase;\n  background: white;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n}";
+
+  const styleEl = document.createElement("style");
+  const codeEl = document.createTextNode(code);
+  styleEl.type = 'text/css';
+  styleEl.appendChild(codeEl);
+  document.head.appendChild(styleEl);
+}

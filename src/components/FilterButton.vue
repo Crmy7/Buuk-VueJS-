@@ -1,0 +1,45 @@
+<template>
+    <button class="buttonFilter">Filtrer par <span>Date</span></button>
+</template>
+
+<script lang="ts">
+export default {
+  name: 'FilterButton',
+}
+</script>
+
+<style lang="scss">
+
+.buttonFilter{
+    line-height: 1.5;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 20px;
+    border-radius: 20px;
+    width: auto;
+    height: 70px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 38px;
+    color: #1D1C24;
+    opacity: 0.7;
+    margin: 0;
+    margin-left: 17.5px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    color: #1D1C24;
+    text-transform: none;
+    span{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+} 
+
+.buttonFilter:hover {
+    cursor: pointer;
+    box-shadow: #D48AE6 0px 0px 20px;
+}
+</style>

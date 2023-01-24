@@ -1,0 +1,10 @@
+// [snowpack] add styles to the page (skip if no document exists)
+if (typeof document !== 'undefined') {
+  const code = ".stylesContainer {\n  width: 95%;\n}\n.style {\n  height: 450px;\n  background: #F3EEFF;\n  border-radius: 47px;\n  margin-bottom: 50px;\n  padding: 64px;\n  display: flex;\n  flex-wrap: wrap;\n}\n.style h2 {\n  background: linear-gradient(89.6deg, #211C39 -2.19%, #927BF9 102.14%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  text-align: left;\n  width: 100%;\n}\n.artists {\n  width: 200px;\n  height: 250px;\n  background-color: #927BF9;\n  margin-right: 20px;\n  border-radius: 30px;\n  display: flex;\n  justify-content: flex-end;\n  align-items: flex-end;\n  align-items: center;\n  align-items: flex-start;\n  padding-bottom: 20px;\n  padding-left: 20px;\n  color: white;\n  flex-direction: column;\n  justify-content: flex-end;\n  position: relative;\n  transition: all 0.3s ease-in-out;\n}\n.artists a {\n  padding: 0;\n}\n.artists p {\n  transition: all 0.3s ease-in-out;\n}\n.artists p:hover {\n  color: #D48AE6;\n}\n.date {\n  position: absolute;\n  top: 15px;\n  right: 17.5px;\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 14px;\n  line-height: 18px;\n  color: #FFFFFF;\n}\n.name {\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 800;\n  font-size: 25px;\n  line-height: 38px;\n  color: #FFFFFF;\n}\n.place {\n  font-family: \"Sora\";\n  font-style: normal;\n  font-weight: 300;\n  font-size: 12.5px;\n  line-height: normal !important;\n  color: #FFFFFF;\n  line-height: 50px;\n}";
+
+  const styleEl = document.createElement("style");
+  const codeEl = document.createTextNode(code);
+  styleEl.type = 'text/css';
+  styleEl.appendChild(codeEl);
+  document.head.appendChild(styleEl);
+}

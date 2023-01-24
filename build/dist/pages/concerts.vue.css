@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white !important;
+}
+li {
+  list-style-type: none;
+}
+.purple {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  border-radius: 0px 0px 0px 150px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.inputfilter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 85%;
+}

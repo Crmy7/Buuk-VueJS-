@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "aos": "./aos.js",
+    "aos/dist/aos.css": "./aos/dist/aos.css",
+    "axios": "./axios.js",
+    "vue": "./vue.js",
+    "vue-router": "./vue-router.js",
+    "vuex": "./vuex.js"
+  }
+}

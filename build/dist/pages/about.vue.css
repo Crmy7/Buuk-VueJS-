@@ -1,0 +1,8 @@
+.purple {
+  background: radial-gradient(51.9% 336.54% at 51.9% 50%, #241B4D 0%, #1B1B1B 100%);
+  border-radius: 0px 0px 150px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

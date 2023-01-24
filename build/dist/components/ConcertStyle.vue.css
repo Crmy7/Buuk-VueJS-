@@ -1,0 +1,76 @@
+.stylesContainer {
+  width: 95%;
+}
+.style {
+  height: 450px;
+  background: #F3EEFF;
+  border-radius: 47px;
+  margin-bottom: 50px;
+  padding: 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.style h2 {
+  background: linear-gradient(89.6deg, #211C39 -2.19%, #927BF9 102.14%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: left;
+  width: 100%;
+}
+.artists {
+  width: 200px;
+  height: 250px;
+  background-color: #927BF9;
+  margin-right: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-items: center;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.artists a {
+  padding: 0;
+}
+.artists p {
+  transition: all 0.3s ease-in-out;
+}
+.artists p:hover {
+  color: #D48AE6;
+}
+.date {
+  position: absolute;
+  top: 15px;
+  right: 17.5px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.name {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+.place {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.5px;
+  line-height: normal !important;
+  color: #FFFFFF;
+  line-height: 50px;
+}
